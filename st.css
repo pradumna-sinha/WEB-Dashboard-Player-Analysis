@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d2e;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem 0 1rem;
+  background-color: #234540;
+  margin-bottom: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.player {
+  background-color: #1d1d2e;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  border-radius: 10px 10px 0 0;
+  color: #ffdf2d;
+}
+.final {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+}
+
+.button-group {
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 800px;
+}
+
+.button-group button {
+  margin: 0 0.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #1d1d2e;
+  border: 1px solid #ffdf2d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transform: skew(-20deg);
+  box-shadow: 0 0 4px 0.05px #ffdf2d;
+}
+.button-group .active {
+  background-color: #234540;
+  box-shadow: 0 0 5px 0.5px #ffdf2d;
+}
+
+.container {
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.upper-container {
+  background-color: #212137;
+  padding: 1rem;
+  border: 2px solid #234540;
+  border-radius: 10px;
+}
+
+.upper-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qualifier-buttons {
+  margin-left: 200px;
+}
+
+.qualifier-buttons button {
+  background-color: #d0cf1d;
+  border-radius: 5px;
+}
+
+.header-box {
+  background-color: #d0cf1d;
+  transform: skew(-20deg);
+  color: black;
+  padding: 0 15px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 0 0 80px 760px;
+  font-size: 15px;
+}
+
+.upper-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.upper-container th,
+.upper-container td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+
+.bar {
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #f39c12;
+}
+
+.lower-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+.small-graphs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+
+  background-color: #212137;
+  padding: 1rem;
+  border: 2px solid #234540;
+  border-radius: 10px;
+}
+
+.small-graphs img,
+.big-graph img {
+  width: 100%;
+  height: auto;
+  background-color: #3e3e3e;
+}
+
+.big-graph {
+  grid-row: span 2;
+
+  background-color: #212137;
+  padding: 1rem;
+  border: 2px solid #234540;
+  border-radius: 10px;
+}
